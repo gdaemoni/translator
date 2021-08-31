@@ -1,0 +1,5 @@
+save_file
+AnkiCards
+venv
+*.egg*
+__pycache__
