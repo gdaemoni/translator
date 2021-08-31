@@ -3,12 +3,11 @@ from googletrans.constants import LANGUAGES
 from argparse import ArgumentParser
 from pprint import pprint
 from pathlib import Path
-import sys
 import os
 
 
-SAVE_FILE = Path.cwd() / 'save_file'
-DEFAULT_FILE = Path.cwd() / 'AnkiCards'
+SAVE_FILE = Path(os.path.dirname(__file__)) / 'save_file'
+DEFAULT_FILE = Path(os.path.dirname(__file__)) / 'AnkiCards'
 
 
 def translate_sentences(sentences: list, sentrnces_tr: list) -> list:

@@ -3,3 +3,4 @@ AnkiCards
 venv
 *.egg*
 __pycache__
+.idea
